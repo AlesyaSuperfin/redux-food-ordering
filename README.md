@@ -5,7 +5,7 @@
 
 [Link for the application](https://alesya-superfin-redux-food-ordering.netlify.app/)
 
-![Product Name Screen Shot](https://github.com/AlesyaSuperfin/online-clothing-store/blob/main/online_clothing_store.jpg)
+![Product Name Screen Shot](https://github.com/AlesyaSuperfin/redux-food-ordering/tree/main/src#:~:text=last%20week-,Screenshot%202024%2D09%2D24%20at%2014.00.33.png,-Add%20files%20via)
 
 I created Online Clothing Store to learn how to work with Props, useState() and React Router.
 
