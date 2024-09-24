@@ -5,9 +5,107 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url(/public/foodBack.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-height: 100vh;
+  background-attachment: fixed;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.App {
+  display: flex;
+  justify-content: space-around;
+}
+
+.block {
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.9);
+  position: relative;
+}
+
+img {
+  width: 500px;
+}
+
+.cartIcon {
+  width: 80px;
+  margin-top: 40px;
+}
+
+.categoryButton {
+  cursor: pointer;
+  padding: 5px;
+  margin: 5px;
+}
+
+.categoryButton:hover {
+  background-color: #fdeb6b;
+}
+
+.categoryButtonSelected {
+  background-color: #8FD14F;
+}
+
+.trashIcon {
+  width: 20px;
+}
+
+.dishInACart {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.textInACart {
+  margin: 5px;
+}
+
+.cart {
+  background-color: white;
+  margin-bottom: 20px;
+}
+
+.dish {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.dishContainer {
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 7px 15px;
+  margin: 5px;
+  background-color: black;
+  color: white;
+  border: none;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+}
+  
+.footerText, a {
+  color: gray;
+  font-size: 14px;
+}
+
+@media all and (max-width: 800px) {
+  img {
+    width: 150px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
 }
