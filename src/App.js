@@ -13,7 +13,7 @@ function App() {
     <p className='footerText'>Developed by <a href='https://alesya-superfin-web-developer.glitch.me/' target='blank'>Alesya Superfin</a> </p>
     </footer> 
     </div>
-    <div className='block'>
+    <div className='block dark'>
     <Dishes />
     </div>
 
