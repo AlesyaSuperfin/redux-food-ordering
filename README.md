@@ -12,4 +12,4 @@ I created Online Food Ordering project to learn how to work with Redux.js.
 * The project is based on React & Redux.js.
 * The project contains 11 dishes by different categories & order option.
 * You can filter products using category buttons ("Italian", "Seafood", "Salads" etc.)
-* Redux implementattion allows to add dishes in a cart, to change quantity of dishes and as a result to see the Total price for the order.
+* Redux implementattion allows to add dishes to cart / remove from cart, to change quantity of dishes and as a result to see the Total price for the order.
