@@ -70,10 +70,12 @@ img {
   margin-bottom: 20px;
 }
 
-.dish {
-  display: flex;
-  justify-content: center;
-  align-items: baseline;
+.price {
+  margin: 5px;
+}
+
+h2 {
+  margin: 5px;
 }
 
 .dishContainer {
@@ -111,10 +113,6 @@ footer {
 
   .dark {
     background-color: rgba(255, 255, 255, 0.6);
-  }
-
-  .dish {
-    flex-direction: column;
   }
 
 }

@@ -11,10 +11,8 @@ const Dish = ({dish}) => {
     return (
         <div className="dishContainer">
             <img src={`${dish.img}.jpg`} alt="food" />
-            <div className="dish">
             <h2>{dish.name}</h2>
-            <h3>: $ {dish.price}</h3>
-            </div>
+            <p className="price">Price: $ {dish.price}</p>
             <ChangeQuantity quantity={quantity} setQuantity={setQuantity} />
             <button onClick={() => dispatch(addItemToCart({dish, quantity}))}>Add to cart</button>
         </div>
